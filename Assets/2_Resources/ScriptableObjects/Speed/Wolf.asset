@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Wolf
   _type: 2
-  _allies: 4
+  _allies: 0
   _side: 0
   _ability:
   - {fileID: 0}
   - {fileID: 0}
   _passive: []
-  _hitPoint: 3200
+  _hitPoint: 3400
   _status: 0
-  _physicalDamage: 301
-  _energyDamage: 100
+  _physicalDamage: 289
+  _energyDamage: 122
   _dodge: 20
-  _ignoreDodge: 10
-  _endurance: 0
+  _ignoreDodge: 15
+  _endurance: 10
   _cooldown: 0
