@@ -5,32 +5,31 @@ using MBS.Type;
 
 namespace MBS.Object.Character
 {
-    public class BasicCharacter
+    [CreateAssetMenu(fileName = "Character Data", menuName = "Scriptable Object/Character Data", order = int.MaxValue)]
+    public class BasicCharacter : ScriptableObject
     {
-        private string _name;
-        private CharacterType _type;
-        private Allies _allies;
-        private Side _side;
+        [SerializeField] private string _name;
+        [SerializeField] private CharacterType _type;
+        [SerializeField] private Allies _allies;
+        [SerializeField] private Side _side;
         // Abliity list
-        [SerializeField]
-        private BasicPassive[] _ability;
+        [SerializeField] private BasicPassive[] _ability;
         // Passive list
-        private BasicPassive[] _passive;
+        [SerializeField] private BasicPassive[] _passive;
 
-        private int _hitPoint;
-        private CrowdControl _status;
+        [SerializeField] private int _hitPoint;
+        [SerializeField] private CrowdControl _status;
         // Buff list
-        private List<object> _buffList;
+        [SerializeField] private List<object> _buffList;
         // Debuff list
-        private List<object> _debuffList;
+        [SerializeField] private List<object> _debuffList;
 
-        private int _physicalDamage;
-        private int _energyDamage;
+        [SerializeField] private int _physicalDamage;
+        [SerializeField] private int _energyDamage;
 
-        private float _dodge;
-        private float _ignoreDodge;
-        private float _endurance;
-        private float _cooldown;
-
+        [SerializeField] private float _dodge;
+        [SerializeField] private float _ignoreDodge;
+        [SerializeField] private float _endurance;
+        [SerializeField] private float _cooldown;
     }
 }

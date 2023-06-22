@@ -35,7 +35,9 @@ namespace MBS.Type
 
     public enum CrowdControl
     {
-        Mocking = 0,
+        None = 0,
+
+        Mocking = 100,
 
         Charm = 111,
         Suduce,

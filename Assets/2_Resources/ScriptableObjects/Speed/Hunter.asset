@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183c0899e57d07046a6bdf40823898be, type: 3}
+  m_Name: Hunter
+  m_EditorClassIdentifier: 
+  _name: Hunter Iris
+  _type: 2
+  _allies: 0
+  _side: 1
+  _ability:
+  - {fileID: 0}
+  - {fileID: 0}
+  _passive: []
+  _hitPoint: 3000
+  _status: 0
+  _physicalDamage: 314
+  _energyDamage: 112
+  _dodge: 30
+  _ignoreDodge: 0
+  _endurance: 10
+  _cooldown: 0
