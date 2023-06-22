@@ -51,5 +51,28 @@ namespace MBS.Type
 
         Panic = 555,
         Freezing,
+
+        Bleeding = 666, // Healing debuff
+        Pierce, // Remove buff
+    }
+
+    public enum DefenceStatus
+    {
+        None = 0,
+
+        SuperArmor = 10,
+        GuardBreakImmune,
+
+        NoneTarget = 100,
+        Invisible,
+
+        Invincible = 111,
+
+        Immune = 222,
+
+        Guard = 333,
+
+        Barrier = 444,
+        Shield,
     }
 }

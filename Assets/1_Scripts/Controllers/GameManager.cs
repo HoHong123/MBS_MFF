@@ -6,20 +6,30 @@ using UnityEngine;
 
 namespace MBS.Controller.Game
 {
+    /// <summary>
+    /// In game scene manager
+    /// + Game Scene Init
+    /// + Game Scene Update
+    /// + Game Scene Finish
+    /// </summary>
     public class GameManager : MonoBehaviour, ISceneSession
     {
 
 
-        void ISceneSession.EndScene()
+
+        void ISceneSession.StartScene()
         {
+
         }
 
         void ISceneSession.RunningScene()
         {
+
         }
 
-        void ISceneSession.StartScene()
+        void ISceneSession.EndScene()
         {
+
         }
 
     }
