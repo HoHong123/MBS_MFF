@@ -11,18 +11,14 @@ namespace MBS.Object.Character
         [SerializeField] private string _name;
         [SerializeField] private CharacterType _type;
         [SerializeField] private Allies _allies;
+        [SerializeField] private Gender _gender;
         [SerializeField] private Side _side;
         // Abliity list
         [SerializeField] private BasicPassive[] _ability;
         // Passive list
-        [SerializeField] private BasicPassive[] _passive;
+        [SerializeField] private BasicPassive[] _passiveBuffList;
 
         [SerializeField] private int _hitPoint;
-        [SerializeField] private CrowdControl _status;
-        // Buff list
-        [SerializeField] private List<object> _buffList;
-        // Debuff list
-        [SerializeField] private List<object> _debuffList;
 
         [SerializeField] private int _physicalDamage;
         [SerializeField] private int _energyDamage;
