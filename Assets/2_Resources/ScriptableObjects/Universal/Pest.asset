@@ -9,22 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183c0899e57d07046a6bdf40823898be, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b4c42c8f64de3348bc0a55e6adb6bdf, type: 3}
   m_Name: Pest
   m_EditorClassIdentifier: 
   _name: Pest
   _type: 3
   _allies: 5
+  _gender: 0
   _side: 2
-  _ability:
-  - {fileID: 0}
-  - {fileID: 0}
-  _passive: []
-  _hitPoint: 3800
-  _status: 0
+  _ability: []
+  _passiveBuffList: []
+  _hitPoint: 3600
+  _hitPoints: {fileID: 0}
   _physicalDamage: 80
   _energyDamage: 304
-  _dodge: 10
+  _dodge: 13
   _ignoreDodge: 0
   _endurance: 0
   _cooldown: 0

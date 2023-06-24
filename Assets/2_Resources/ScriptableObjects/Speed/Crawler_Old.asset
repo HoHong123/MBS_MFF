@@ -9,21 +9,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b4c42c8f64de3348bc0a55e6adb6bdf, type: 3}
-  m_Name: King Igor
+  m_Script: {fileID: 11500000, guid: 183c0899e57d07046a6bdf40823898be, type: 3}
+  m_Name: Crawler_Old
   m_EditorClassIdentifier: 
-  _name: King Igor
-  _type: 3
+  _name: Crawler
+  _type: 2
   _allies: 4
-  _gender: 1
   _side: 2
-  _ability: []
-  _passiveBuffList: []
-  _hitPoint: 3900
-  _hitPoints: {fileID: 0}
-  _physicalDamage: 255
-  _energyDamage: 201
-  _dodge: 10
-  _ignoreDodge: 15
-  _endurance: 10
+  _ability:
+  - {fileID: 0}
+  - {fileID: 0}
+  _passive: []
+  _hitPoint: 3200
+  _status: 0
+  _physicalDamage: 301
+  _energyDamage: 100
+  _dodge: 20
+  _ignoreDodge: 10
+  _endurance: 0
   _cooldown: 0

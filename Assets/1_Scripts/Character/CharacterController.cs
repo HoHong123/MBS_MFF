@@ -6,20 +6,23 @@ using UnityEngine;
 
 namespace MBS.Controller.Game
 {
-    public class CharacterController : MonoBehaviour
+    [CreateAssetMenu(fileName = "Character Controller", menuName = "Scriptable Object/Character Controller", order = int.MaxValue)]
+    public class CharacterController : BasicCharacter
     {
-        [SerializeField] private BasicCharacter _character;
-        [SerializeField] private CrowdControl _crowdContrlStatus;
-        [SerializeField] private DefenceStatus _defenceStatus;
+        protected HitPoint _hitPoints;
 
-        [SerializeField] private Transform _currentTarget;
+        // Current target of the character
+        private Transform _currentTarget;
 
+        // Current state of the character
+        private CrowdControl _crowdContrlStatus;
+        // Current defence state of the character
+        private DefenceStatus _defenceStatus;
 
-        [SerializeField] private CrowdControl _status;
         // Buff list
-        [SerializeField] private List<object> _activeBuffList;
+        private List<object> _activeBuffList;
         // Debuff list
-        [SerializeField] private List<object> _debuffList;
+        private List<object> _debuffList;
 
 
 
@@ -27,11 +30,21 @@ namespace MBS.Controller.Game
         // Start is called before the first frame update
         void Start()
         {
+            _hitPoints = new HitPoint(_hitPoint);
+        }
+         
+        // Update is called once per frame
+        void Update()
+        {
 
         }
 
-        // Update is called once per frame
-        void Update()
+        private void SeekingTarget()
+        {
+
+        }
+
+        private void Attack()
         {
 
         }

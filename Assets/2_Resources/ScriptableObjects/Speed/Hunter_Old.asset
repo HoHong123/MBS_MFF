@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 183c0899e57d07046a6bdf40823898be, type: 3}
-  m_Name: Daq'qun
+  m_Name: Hunter_Old
   m_EditorClassIdentifier: 
-  _name: Daq`qun
-  _type: 0
-  _allies: 3
-  _side: 2
+  _name: Hunter Iris
+  _type: 2
+  _allies: 0
+  _side: 1
   _ability:
   - {fileID: 0}
   - {fileID: 0}
   _passive: []
-  _hitPoint: 4500
+  _hitPoint: 3000
   _status: 0
-  _physicalDamage: 212
-  _energyDamage: 86
-  _dodge: 10
+  _physicalDamage: 314
+  _energyDamage: 112
+  _dodge: 30
   _ignoreDodge: 0
-  _endurance: 0
+  _endurance: 10
   _cooldown: 0

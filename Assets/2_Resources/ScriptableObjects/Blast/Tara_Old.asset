@@ -9,21 +9,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b4c42c8f64de3348bc0a55e6adb6bdf, type: 3}
-  m_Name: Rock
+  m_Script: {fileID: 11500000, guid: 183c0899e57d07046a6bdf40823898be, type: 3}
+  m_Name: Tara_Old
   m_EditorClassIdentifier: 
-  _name: Rock
-  _type: 0
-  _allies: 5
-  _gender: 0
-  _side: 0
-  _ability: []
-  _passiveBuffList: []
-  _hitPoint: 5000
-  _hitPoints: {fileID: 0}
-  _physicalDamage: 223
-  _energyDamage: 91
-  _dodge: 5
+  _name: Tara De'lla
+  _type: 1
+  _allies: 1
+  _side: 1
+  _ability:
+  - {fileID: 0}
+  - {fileID: 0}
+  _passive: []
+  _hitPoint: 3300
+  _status: 0
+  _physicalDamage: 108
+  _energyDamage: 294
+  _dodge: 10
   _ignoreDodge: 0
-  _endurance: 25
+  _endurance: 0
   _cooldown: 0

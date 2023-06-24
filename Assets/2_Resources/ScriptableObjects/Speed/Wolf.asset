@@ -9,22 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183c0899e57d07046a6bdf40823898be, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b4c42c8f64de3348bc0a55e6adb6bdf, type: 3}
   m_Name: Wolf
   m_EditorClassIdentifier: 
   _name: Wolf
   _type: 2
   _allies: 0
+  _gender: 1
   _side: 0
-  _ability:
-  - {fileID: 0}
-  - {fileID: 0}
-  _passive: []
-  _hitPoint: 3400
-  _status: 0
+  _ability: []
+  _passiveBuffList: []
+  _hitPoint: 3300
+  _hitPoints: {fileID: 0}
   _physicalDamage: 289
   _energyDamage: 122
-  _dodge: 20
+  _dodge: 15
   _ignoreDodge: 15
   _endurance: 10
   _cooldown: 0

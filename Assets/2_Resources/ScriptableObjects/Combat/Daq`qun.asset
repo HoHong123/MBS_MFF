@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b4c42c8f64de3348bc0a55e6adb6bdf, type: 3}
-  m_Name: King Igor
+  m_Name: Daq`qun
   m_EditorClassIdentifier: 
-  _name: King Igor
-  _type: 3
-  _allies: 4
+  _name: Daq`qun
+  _type: 0
+  _allies: 3
   _gender: 1
   _side: 2
   _ability: []
   _passiveBuffList: []
-  _hitPoint: 3900
+  _hitPoint: 4500
   _hitPoints: {fileID: 0}
-  _physicalDamage: 255
-  _energyDamage: 201
+  _physicalDamage: 212
+  _energyDamage: 98
   _dodge: 10
-  _ignoreDodge: 15
+  _ignoreDodge: 5
   _endurance: 10
   _cooldown: 0
